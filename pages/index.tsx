@@ -15,20 +15,18 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Bem-vindo à PET API, aqui você encontrará algumas informações úteis
-          sobre PETS
-        </h1>
+        <h1 className={styles.title}>Bem-vindo à PET API!</h1>
 
         <p className={styles.description}>
-          As informações disponíveis aqui foram coletadas de páginas públicas,
-          mais informações na página de <a href="creditos">créditos</a>.
+          Aqui você encontrará algumas informações úteis sobre PETS, as
+          informações disponíveis aqui foram coletadas de páginas públicas, mais
+          informações na página de <a href="creditos">créditos</a>.
         </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Rotas disponíveis: &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <p>Veja todas as rotas disponíveis para consumo público!</p>
           </a>
         </div>
       </main>
