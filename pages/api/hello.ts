@@ -1,6 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import {} from "supabase";
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
-  res.status(200).json({ name: "John Doe" });
+  res.status(201).json({ cum: "shot" });
 }
